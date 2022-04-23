@@ -17,3 +17,18 @@ function beepBoop(number) {
 
   return convertedNumbers;
 }
+
+
+// UI logic
+$(document).ready(function () {
+  $("form#neighborhood").submit(function (event) {
+    event.preventDefault();
+    const numberFromUser = $('#numberInput').val();
+    const substitutions = beepBoop(numberFromUser);
+    $("#output").text('');
+    substitutions.forEach(function (element) {
+      $("#output").append("<li>" + element + "</li>");
+    });
+  })
+
+});
