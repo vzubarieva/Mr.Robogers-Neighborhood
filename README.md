@@ -38,9 +38,7 @@ Test:"if user's input is 35 it should return an array with numbers and phrases"
 Code: beepBoop("35");
 Expected Output: [0,"Beep!',"Boop!","Won't you be my neighbor?", 4, 5, 6, 7,8,9,"Beep!","Beep!',"Boop!","Won't you be my neighbor?","Beep!',"Beep!", "Beep!',"Beep!',"Beep!,"Beep!',"Boop","Boop!',"Boop!',"Won't you be my neighbor?","Boop!,"Boop!',"Boop!', 'Boop!',"Boop!',"Boop!',"Won't you be my neighbor?","Won't you be my neighbor?","Won't you be my neighbor?","Won't you be my neighbor?","Won't you be my neighbor?","Won't you be my neighbor?"];
 
-Test:" If user's input is -5 it should return " Invalid input"
-Code: beepBoop("-5);
-Expected Output: ["Invalid input"]
+
 
 
 
