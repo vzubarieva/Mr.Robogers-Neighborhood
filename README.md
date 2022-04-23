@@ -5,7 +5,7 @@
 
   This is a web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with the substitutions made within the returned range.
 
-[GitHub pages](https://vzubarieva.github.io/mr-robogers-neighborhood)
+[GitHub pages](https://vzubarieva.github.io/Mr.Robogers-Neighborhood)
 ## Technologies Used
 
 * _HTML_
