@@ -1,3 +1,36 @@
+ # _Mr. Roboger's Neighborhood_
+
+#### By _**Viktoriia Zubarieva**_
+## Description
+
+  This is a web application that takes a number from the user and returns a range of numbers from 0 to the user inputted number with the substitutions made within the returned range.
+
+[GitHub pages](https://vzubarieva.github.io/mr-robogers-neighborhood)
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _Bootstrap_
+* _jQuery_
+
+## Setup/Installation Requirements
+
+* _Clone this repository to your desktop_
+* _Navigate to the top level of the directory_
+* _Open index.html_ 
+
+## Known Bugs
+
+* _No known issues_
+
+
+## License
+
+_MIT_
+
+Copyright (c) _2022_ _Viktoriia Zubarieva_
+
  ### Tests
 
  Describe: beepBoop();
