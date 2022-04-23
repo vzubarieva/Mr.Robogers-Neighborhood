@@ -2,10 +2,18 @@
 
 function beepBoop(number) {
   const parsedNumber = parseInt(number);
-  const result = [];
-  for (let index = 0; index <= parsedNumber; index += 1) {
-    result.push(index);
+  const convertedNumbers = [];
+  for (let loopIndex = 0; loopIndex <= parsedNumber; loopIndex += 1) {
+    if (loopIndex === 3) {
+      convertedNumbers.push("Won't you be my neighbor?");
+    } else if (loopIndex === 2) {
+      convertedNumbers.push("Boop!");
+    } else if (loopIndex === 1) {
+      convertedNumbers.push("Beep!");
+    } else {
+      convertedNumbers.push(loopIndex);
+    }
   }
 
-  return result;
+  return convertedNumbers;
 }
